@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="VisA-Raphael-W"
-config/features=PackedStringArray("4.6", "Forward Plus")
+run/main_scene="uid://buf80u7k3qsq3"
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
 config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="VisA-Raphael-W"
 
 [physics]
 
@@ -21,4 +26,3 @@ config/icon="res://icon.svg"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
-renderer/rendering_method="forward_plus"
